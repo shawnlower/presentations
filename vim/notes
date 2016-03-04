@@ -1,0 +1,83 @@
+- Become proficient in vim, because you spend LOTS of time in it per day
+- We're only going to cover a couple dozen things. C'mon, you can learn that.
+
+== BAD ==
+    - Going into insert mode, then arrow-keying to the end of the line. Why??
+    - Using backspace to delete an entire line. Why??
+    - Accidentally deleting something, then exiting (without saving) and
+      re-opening to correct the mistake. Why??
+    - Pasting from Word or wherever. 
+
+== Good ==
+    - Save often
+    - Learn motions
+    - Learn to (u)ndo and (^r)edo
+    - Visual mode
+    - Save and exit
+    - vimdiff
+    - Open line (above/below)
+    - Marks
+    - (g)o to (d)efinition
+    - (:h)AAALP!!!
+        - :help motions
+        - Ctrl-]  --> Follow jumps
+
+== Insert mode vs Command mode
+
+== Visual Mode ==
+    - Use (v) before any motion, to visualize it.
+    - Also allows more granular selction (e.g. select 3 words plus 4 characters)
+    - Colon Stuff!
+        - :s/someword/replacement/g
+        - !sort -n
+        - !python -m json.tool
+
+== Motions ==
+
+- hjkl (left/down/up/right)
+- (w) Move forward one (w)ord
+- (b) Move (b)ackward one word
+- (gg): (g)o (g)o to beginning of file
+- (G): (G)o to EOF
+- ^o / ^i - Go to the (o)ld place you were / (i)nverse of the old place
+
+- { - Braces move paragraphs
+- ( - Parentheses move sentence
+
+== Searching ==
+
+- (*): Find next occurence of word
+- (n)ext match / (N)ot the next match
+
+=== Inside / until stuff ===
+- (d)elete (a) (s)entence
+- (d)elete (a) (s)entence
+- (d)elete (t)o next ()) paren
+
+== Yanking and popping ==
+- Use your same motions, use visual if you need
+
+== Commands ==
+
+- c and d: (c)hanging and (d)eleting
+    - 
+
+== Windows ==
+
+== vimtutor ==
+- Seriously, do my work for me.
+
+Ok. So this sentence is bogus. I mean really. Bogus. Bogus. Bogus.
+
+== Misc ==
+
+- Insert the output of a command:
+   !!date
+
+== Five Things ==
+
+Monday: Motions
+Tuesday: Undo/Redo
+Weds: Yank and pop
+Thurs: Marks
+Friday: Change/Delete
