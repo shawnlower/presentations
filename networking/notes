@@ -1,0 +1,45 @@
+
+
+nova-network vs neutron
+congestion control
+Packet flow
+
+Overview -
+    networking
+    filtering
+    OSI layers
+
+L2 - 
+    vlans
+    ebtables
+    bridges
+    vxlans
+    ARP
+    STP
+
+L3 -
+    routing tables
+    dnsmasq
+    DORA the DHCP explorer
+    Subnetting
+    GRE
+
+L4 - 
+    TCP vs UDP
+    sockets
+
+Tools
+    iptables / netfilter
+    wireshark 
+    iproute2
+
+
+========================================
+
+- Show how OpenStack just calls userspace tools for network manipulation
+    - sudo nova-rootwrap ebtables
+
+Primary topics:
+    - What are the layers?
+    - How are they filtered?
+    - What are the tools?
